@@ -8,6 +8,14 @@ Este repositorio contiene el código y los datos de un sistema predictivo diseñ
 
 Abandonando los promedios simples tradicionales, el sistema utiliza **Inteligencia Artificial (XGBoost)** para cruzar la inercia histórica de movilidad (datos del INE) con factores externos como la meteorología local (AEMET) y el calendario laboral[cite: 5].
 
+## Contenido del Repositorio
+
+En este repositorio se incluyen todos los ficheros pertinentes para la comprensión y ejecución del proyecto:
+
+*   **Informe Completo (PDF):** Documento detallado que abarca el análisis exploratorio de datos, la construcción de los modelos predictivos y la explicación de uso del simulador para el negocio[cite: 5].
+*   **Código y Modelos:** Scripts de análisis y entrenamiento, los archivos `.pkl` con los algoritmos XGBoost ya entrenados para cada región, y el archivo `app.py` que da vida a la interfaz.
+*   **Entorno:** Archivo `requirements.txt` con las dependencias necesarias para replicar el proyecto.
+
 ## Ingeniería de Datos y Estrategia de Modelado
 
 Para garantizar la máxima precisión en entornos de producción, se tomaron las siguientes decisiones estratégicas:
