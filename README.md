@@ -11,7 +11,7 @@ Abandonando los promedios simples tradicionales, el sistema utiliza **Inteligenc
 ## Contenido del Repositorio
 
 En este repositorio se incluyen todos los ficheros pertinentes para la comprensión y ejecución del proyecto:
-
+*   **Base de Datos:** Se crearon y ejecutaron pipelines de limpieza y unión de las bases de datos obtenidas del INE y del AEMET.
 *   **Informe Completo (PDF):** Documento detallado que abarca el análisis exploratorio de datos, la construcción de los modelos predictivos y la explicación de uso del simulador para el negocio[cite: 5].
 *   **Código y Modelos:** Scripts de análisis y entrenamiento, los archivos `.pkl` con los algoritmos XGBoost ya entrenados para cada región, y el archivo `app.py` que da vida a la interfaz.
 *   **Entorno:** Archivo `requirements.txt` con las dependencias necesarias para replicar el proyecto.
